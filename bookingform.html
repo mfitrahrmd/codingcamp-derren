@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>“booking”</title>
+  <link rel="stylesheet" href=" style.css" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1 class="header-title">time Tours</h1>
+    <nav>
+      <a href="index.html">home</a>
+      <a href="bookingform.html">booking</a>
+      <a href="about.html">About us</a>
+    </nav>
+  </header>
+  <main class="formcontainer">
+    <h1 class="title">Tour Reservations Form</h1>
+    <img src="images/booking.png" alt="" />
+    <form>
+      <label>Full name</label>
+      <input type="text" />
+      <label>Email</label>
+      <input type="email" />
+      <label>Phone Number</label>
+      <input type="number" />
+      <label>Pick a Date</label>
+      <input type="date" />
+      <label>How many person?</label>
+      <input id="num-of-people" type="number" />
+      <label>Tour Package</label>
+      <select name="package" id="package">
+        <option value="39313305">BMW XM | $393,1305</option>
+        <option value="6039240">BMW X1 | $60,39240</option>
+        <option value=" 8123850">BMW X3 | $ 81,23850</option>
+        <option value="10625383">BMW X4 | $106,25383</option>
+        <option value="15223789">BMW IX |$152,s23789</option>
+      </select>
+    </form>
+    <h3>Total Payment : $ <span id="total"> </span></h3>
+
+
+    <button onclick="process()">Process Booking</button>
+
+  </main>
+  <footer>
+    <h4>Time Tours</h4>
+    <p>Copyright &Copy 2024 Designed by Timedoor Academy</p>
+  </footer>
+  <script src="script.js"> </script>
+</body>
+
+</html>

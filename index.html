@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMW store</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <h1 class="header-title">Time Tours</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="bookingform.html">Booking</a>
+      <a href="about.html">About us</a>
+    </nav>
+  </header>
+  <div class="jumbotron">
+    <div class="jumbotron-text">
+      <h1>BMW Store</h1>
+      <h3>
+        “Safe and reliable place to buy BMW cars"
+      </h3>
+      <p>Website created by :Derren</p>
+    </div>
+
+  </div>
+
+  <div class="main-container">
+    <div class="package-container">
+      <!-- 1st package content -->
+      <img src="images/nacza bmw.jpg" alt="Sakura" />
+      <h3>Nacza M12 | 7 Days</h3>
+      <p>BMW Nacza M12</p>
+      <h4 id="harga1">USD 650,000</h4>
+      <!--add button here -->
+      <button id="bnt3" class="left">Book Now</button>
+    </div>
+    <div class="package-container">
+      <img src="images/m8 prototype.jpg" alt="shibuya" />
+      <h3>M8 Prototype | 8 Days</h3>
+      <p>BMW M8 Pototype</p>
+      <h4 id="harga2">USD 590,000</h4>
+      <!--add button here -->
+      <button id="btn1" class="left" onclick="showHarga1()">Book Now</button>
+      <!--2nd package content -->
+    </div>
+    <div class="package-container">
+      <img src="images/x5 mans concept.jpg" alt="Kyoto" />
+      <h3>X5 Mans Concept| 6 Days</h3>
+      <p>BMW X5 Mans Concept</p>
+      <h4 id="harga3">USD 3,000</h4>
+      <!--add button here -->
+      <button id="btn2" class="left">Book Now</button>
+      <!--3rd package content -->
+    </div>
+  </div>
+  <h1 class="title">Standard car</h1>
+  <div class="table">
+    <table>
+      <tr>
+        <!-- Table heading -->
+      </tr>
+      <tr>
+        <!-- Table data 1 -->
+      </tr>
+      <!-- Table heading -->
+      <th>Package</th>
+      <th>Description</th>
+      <th>Places</th>
+      <th>Price</th>
+      <th>Booking</th>
+      <tr>
+        <!-- Table data 2 -->
+        <td><img src="images/bmw xm.avif" alt="" /></td>
+        <td>BMW XM</td>
+        <td>Jerman</td>
+        <td>USD 393.133,05</td>
+        <td>
+          <button onclick="goToBooking()" type="button">Book Now</button>
+        </td>
+      </tr>
+
+      <tr></tr>
+      <!-- Table data 1 -->
+      <td><img src="images/bmw x1.jpg" alt="" /></td>
+      <td>BMW X1</td>
+      <td>Jerman</td>
+      <td>USD 60.392,40</td>
+      <td><button onclick="goToBooking()" type="button">Book Now</button></td>
+      <tr>
+        <!-- Table data 3 -->
+      </tr>
+      <td><img src="images/bmw x3.jpg" alt="" /></td>
+      <td>BMW X3</td>
+      <td>Jerman</td>
+      <td>USD 81.238,50</td>
+      <td><button onclick="goToBooking()" type="button">Book Now</button></td>
+      <tr>
+        <!-- Table data 4 -->
+      </tr>
+      <td><img src="images/bmw x4.jpg" alt="" /></td>
+      <td>BMW X4</td>
+      <td>Jerman</td>
+      <td>USD 106.253,83</td>
+      <td><button onclick="goToBooking()" type="button">Book Now</button></td>
+      <tr>
+        <!-- Table data 5 -->
+      </tr>
+      <td><img src="images/bmw ix.avif" alt="" /></td>
+      <td>BMW IX</td>
+      <td>Jerman</td>
+      <td>USD 152.237,89</td>
+      <td><button onclick="goToBooking()" type="button">Book Now</button></td>
+    </table>
+  </div>
+  <div class="video-container">
+    <iframe width="1200" height="315" src="https://www.youtube.com/embed/dQn0_k2XhbQ?si=4zIi0oKDaIhjCXZj"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+    <iframe width="1200" height="315" src="https://www.youtube.com/embed/UeLt9X9nJ10?si=_pH0z31PpTMq4aMF"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+    <iframe width="1200" height="315" src="https://www.youtube.com/embed/Q7NL_QSPzHg?si=rGKuZXsz7seYwKPx"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+    <iframe width="1200" height="315" src="https://www.youtube.com/embed/4GSUXy76qGc?si=FvvTE3gOjaG4gbja"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+    <iframe width="1200" height="315" src="https://www.youtube.com/embed/dQn0_k2XhbQ?si=XY6eyVNfMoCNOLhO"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+  </div>
+  <footer>
+    <h4>Time tours</h4>
+    <p>Copyright &copy 2022 Designed by Timedoor Academy</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
